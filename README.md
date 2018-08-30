@@ -1,2 +1,2 @@
 # coding-kata
-It includes all the TDD development problems
+It includes broad spectrum of TDD development problems
