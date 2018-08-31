@@ -4,15 +4,15 @@ package com.mycompany.fibonacci;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FibonacciTest
-{
+public class FibonacciTest {
     @Test
-    public void testGetFirstTermOfFibonacci(){
-        Assert.assertEquals(0,Fibonacci.getNthTerm(1));
+    public void testGetFirstTermOfFibonacci() {
+        Assert.assertEquals(0, Fibonacci.getNthTerm(1));
     }
+
     @Test
-    public void testGetSecondTermOfFibonacci(){
-        Assert.assertEquals(1,Fibonacci.getNthTerm(2));
+    public void testGetSecondTermOfFibonacci() {
+        Assert.assertEquals(1, Fibonacci.getNthTerm(2));
     }
 
     @Test(expected = IllegalArgumentException.class)
